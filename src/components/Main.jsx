@@ -1,6 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import { FaTwitter, FaFacebook, FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa'
+import profileImg from "/Users/MichaelStafford/michael-portfolio-hostinger/dist/assets/IMG_0482.jpeg"
 
 const Main = () => {
   return (
