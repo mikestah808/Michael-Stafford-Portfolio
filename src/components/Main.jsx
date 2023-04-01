@@ -1,7 +1,6 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-import { FaTwitter, FaFacebook, FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa'
-import profileImg from "/Users/MichaelStafford/michael-portfolio-hostinger/dist/assets/IMG_0482.jpeg"
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 
 const Main = () => {
   return (
@@ -28,9 +27,6 @@ const Main = () => {
                      />
                 </h2>
                 <div className='flex justify-between pt-6 max-w-[50px] w-full'>
-                    {/* <FaTwitter className='cursor-pointer' size={20} />
-                    <FaFacebook className='cursor-pointer' size={20} />
-                    <FaInstagram className='cursor-pointer' size={20} /> */}
                     <a href="https://www.linkedin.com/in/michael-stafford">
                         <FaLinkedinIn className='cursor-pointer' size={20} />
                     </a>
