@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
-import ultimateImg from '/Users/michaelstafford/michael-portfolio-hostinger/src/assets/Screen Shot 2023-03-27 at 8.55.21 AM (2).png'
+import portfolioImg from '/Users/michaelstafford/michael-portfolio-hostinger/src/assets/Screen Shot 2023-04-11 at 8.37.42 PM.png'
 import movieImg from '/Users/michaelstafford/michael-portfolio-hostinger/src/assets/Screen Shot 2023-03-27 at 8.53.21 AM (2).png'
 import fitImg from '/Users/michaelstafford/michael-portfolio-hostinger/src/assets/Screen Shot 2023-03-27 at 8.51.25 AM (2).png'
 
@@ -12,7 +12,7 @@ const Projects = () => {
             Having been enrolled in Flatiron's flex program, all of these projects have been built solely by me. Links to these projects can be found when you hover over an image. These are full-stack projects utilizing a React Frontend, along with a Rails API backend.
         </p>
         <div className='grid sm:grid-cols-2 gap-12'>
-            <ProjectItem img={ultimateImg} title='FIFA Ultimate Team' link='https://github.com/mikestah808/fifa-ultimate-team-app.git'/>
+            <ProjectItem img={portfolioImg} title='Personal Portfolio' link='https://github.com/mikestah808/Michael-Stafford-Portfolio.git'/>
             <ProjectItem img={movieImg} title='Movie Keeper' link='https://github.com/mikestah808/netflix-clone-frontend.git'/>
             <ProjectItem img={fitImg} title='My Fit' link='https://github.com/mikestah808/my-fit-app-frontend.git'/>
         </div>
